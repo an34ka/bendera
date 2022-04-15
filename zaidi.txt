@@ -1,2 +1,23 @@
 H1k1т@ л0x
 Eating 6Jlox
+
+using System;
+
+class Program {
+    static void Main(string[] args) {
+      
+      
+        Console.Write("Приветствуем тебя, воин. Эта программа поможет тебе решить твою судьбу. \n Введи возраст твоей пассии:");
+        string text = Console.ReadLine();
+        int years = Convert.ToInt32(text);
+        if (years >= 16){
+          Console.WriteLine("Всё нормальное, жить можешь)");
+            
+        }
+        else {
+          Console.WriteLine("Тоби пизда, ТЕСАК уже выехал ;)");
+        }
+      Console.ReadLine();
+      
+    }
+}
